@@ -1,6 +1,6 @@
 -lock=project.lock.json
-Unity.TextMeshPro.dll
 Assembly-CSharp.dll
+Unity.TextMeshPro.dll
 UnityEngine.TextRenderingModule.dll
 UnityEngine.TerrainPhysicsModule.dll
 UnityEngine.TerrainModule.dll

@@ -13,8 +13,8 @@ GeneratedProjects\UWP\Microsoft.MixedReality.Toolkit.InputSystem\project.json: 1
 GeneratedProjects\UWP\Microsoft.MixedReality.Toolkit.SDK\project.json: 1D02BC64BAC0D041019673A1C4C51737
 GeneratedProjects\UWP\Unity.TextMeshPro\project.json: 1D02BC64BAC0D041019673A1C4C51737
 Group7MixedReality\App.cs: F9DD72578C24104F1664FB5AE0A3A196
-Group7MixedReality\AssemblyConverterArgs.txt: 405851AD6B821D5788F2384578AA6A6E
-Group7MixedReality\Group7MixedReality.csproj: 8514AB3E40AE70A24559CCF972C3FE25
+Group7MixedReality\AssemblyConverterArgs.txt: D09E01028D730595847D23CBA004A0E3
+Group7MixedReality\Group7MixedReality.csproj: ECFABE8C7C032EA9EDB7D492647E8E67
 Group7MixedReality\Group7MixedReality.csproj.user: modified
 Group7MixedReality\Package.appxmanifest: D57E949AAEA49A4E168823BA840FEB10
 Group7MixedReality\project.json: 1D02BC64BAC0D041019673A1C4C51737

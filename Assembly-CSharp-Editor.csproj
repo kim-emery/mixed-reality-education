@@ -139,10 +139,6 @@
     <Compile Include="Assets\HoloToolkit\UX\Scripts\Collections\Editor\CollectionEditor.cs" />
     <Compile Include="Assets\HoloToolkit\UX\Scripts\Editor\CompoundButtonSaveInterceptor.cs" />
     <Compile Include="Assets\HoloToolkit\UX\Scripts\Editor\KeyboardInputFieldEditor.cs" />
-    <Compile Include="Assets\HoloToolkit-Examples\Medical\Editor\VolumeInformationEditor.cs" />
-    <Compile Include="Assets\HoloToolkit-Preview\SpectatorView\Scripts\SpatialSync\MarkerGeneration3D\Editor\MarkerGeneration3DEditor.cs" />
-    <Compile Include="Assets\HoloToolkit-Preview\SpectatorView\Scripts\Utilities\Editor\PlatformSwitcherEditor.cs" />
-    <Compile Include="Assets\HoloToolkit-Preview\SpectatorView\UnityARKitPlugin\Plugins\iOS\UnityARKit\Editor\UnityARBuildPostprocessor.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Kim/Documents/GitHub/FollowTutorialCreativeCoding/Group7MixedReality/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

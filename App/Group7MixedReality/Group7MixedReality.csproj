@@ -389,14 +389,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Kim\Documents\GitHub\FollowTutorialCreativeCoding\Group7MixedReality\App\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj">
-      <Project>{d8710024-b0ad-4e05-bf90-4a7b9f3d29d0}</Project>
-      <Name>Unity.TextMeshPro</Name>
+    <ProjectReference Include="C:\Users\Kim\Documents\GitHub\FollowTutorialCreativeCoding\Group7MixedReality\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
+      <Project>{dfc5d3d4-2ed5-41e2-bfa5-995bf5175259}</Project>
+      <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Kim\Documents\GitHub\FollowTutorialCreativeCoding\Group7MixedReality\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{4f8b9e7d-4578-49f2-8b2d-7f4c6fe66415}</Project>
-      <Name>Assembly-CSharp</Name>
+    <ProjectReference Include="C:\Users\Kim\Documents\GitHub\FollowTutorialCreativeCoding\Group7MixedReality\App\GeneratedProjects\UWP\Unity.TextMeshPro\Unity.TextMeshPro.csproj">
+      <Project>{441c20a0-9c59-4441-82d5-a61975eb56ce}</Project>
+      <Name>Unity.TextMeshPro</Name>
       <Private>False</Private>
     </ProjectReference>
   </ItemGroup>  <ItemGroup>
@@ -486,10 +486,10 @@
         <Message Importance="high" Text="UnityProjectDir &quot;$(UnityProjectDir)&quot;." />
         <Message Importance="high" Text="Copying unprocessed assemblies..." />
         <Copy SourceFiles="@(UnprocessedFile)" DestinationFolder="$(ProjectDir)" />
-        <Copy SourceFiles="$(UnityWSASolutionDir)\GeneratedProjects\UWP\Unity.TextMeshPro\bin\$(PlatformName)\$(ConfigurationName)\Unity.TextMeshPro.dll" DestinationFiles="$(ProjectDir)Unity.TextMeshPro.dll" />
-        <Copy SourceFiles="$(UnityWSASolutionDir)\GeneratedProjects\UWP\Unity.TextMeshPro\bin\$(PlatformName)\$(ConfigurationName)\Unity.TextMeshPro.pdb" DestinationFiles="$(ProjectDir)Unity.TextMeshPro.pdb" Condition="Exists('$(UnityWSASolutionDir)\GeneratedProjects\UWP\Unity.TextMeshPro\bin\$(PlatformName)\$(ConfigurationName)\Unity.TextMeshPro.pdb')" />
         <Copy SourceFiles="$(UnityWSASolutionDir)\GeneratedProjects\UWP\Assembly-CSharp\bin\$(PlatformName)\$(ConfigurationName)\Assembly-CSharp.dll" DestinationFiles="$(ProjectDir)Assembly-CSharp.dll" />
         <Copy SourceFiles="$(UnityWSASolutionDir)\GeneratedProjects\UWP\Assembly-CSharp\bin\$(PlatformName)\$(ConfigurationName)\Assembly-CSharp.pdb" DestinationFiles="$(ProjectDir)Assembly-CSharp.pdb" Condition="Exists('$(UnityWSASolutionDir)\GeneratedProjects\UWP\Assembly-CSharp\bin\$(PlatformName)\$(ConfigurationName)\Assembly-CSharp.pdb')" />
+        <Copy SourceFiles="$(UnityWSASolutionDir)\GeneratedProjects\UWP\Unity.TextMeshPro\bin\$(PlatformName)\$(ConfigurationName)\Unity.TextMeshPro.dll" DestinationFiles="$(ProjectDir)Unity.TextMeshPro.dll" />
+        <Copy SourceFiles="$(UnityWSASolutionDir)\GeneratedProjects\UWP\Unity.TextMeshPro\bin\$(PlatformName)\$(ConfigurationName)\Unity.TextMeshPro.pdb" DestinationFiles="$(ProjectDir)Unity.TextMeshPro.pdb" Condition="Exists('$(UnityWSASolutionDir)\GeneratedProjects\UWP\Unity.TextMeshPro\bin\$(PlatformName)\$(ConfigurationName)\Unity.TextMeshPro.pdb')" />
         <PropertyGroup Condition=" '$(Configuration)' == 'Master' ">
            <RemoveDebuggableAttribute>True</RemoveDebuggableAttribute>
         </PropertyGroup>
@@ -981,14 +981,6 @@
             <AppxPackagePayload Include="$(ProjectDir)UnityEngine.TestRunner.pdb">
                 <TargetPath>UnityEngine.TestRunner.pdb</TargetPath>
             </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'Unity.TextMeshPro.dll'" />
-            <AppxPackagePayload Include="$(ProjectDir)Unity.TextMeshPro.dll">
-                <TargetPath>Unity.TextMeshPro.dll</TargetPath>
-            </AppxPackagePayload>
-            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'Unity.TextMeshPro.pdb'" />
-            <AppxPackagePayload Include="$(ProjectDir)Unity.TextMeshPro.pdb">
-                <TargetPath>Unity.TextMeshPro.pdb</TargetPath>
-            </AppxPackagePayload>
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'Assembly-CSharp.dll'" />
             <AppxPackagePayload Include="$(ProjectDir)Assembly-CSharp.dll">
                 <TargetPath>Assembly-CSharp.dll</TargetPath>
@@ -996,6 +988,14 @@
             <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'Assembly-CSharp.pdb'" />
             <AppxPackagePayload Include="$(ProjectDir)Assembly-CSharp.pdb">
                 <TargetPath>Assembly-CSharp.pdb</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'Unity.TextMeshPro.dll'" />
+            <AppxPackagePayload Include="$(ProjectDir)Unity.TextMeshPro.dll">
+                <TargetPath>Unity.TextMeshPro.dll</TargetPath>
+            </AppxPackagePayload>
+            <AppxPackagePayload Remove="@(AppxPackagePayload)" Condition="'%(TargetPath)' == 'Unity.TextMeshPro.pdb'" />
+            <AppxPackagePayload Include="$(ProjectDir)Unity.TextMeshPro.pdb">
+                <TargetPath>Unity.TextMeshPro.pdb</TargetPath>
             </AppxPackagePayload>
         </ItemGroup>
    </Target>
